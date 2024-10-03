@@ -5,9 +5,9 @@ const Form = () => {
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
-    console.log(nameRef.current.value);
+    console.log(nameRef.current);
   };
- 
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="mb-3">
